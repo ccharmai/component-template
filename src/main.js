@@ -1,6 +1,6 @@
 import { createApp, h } from "vue";
 import wrapper from "vue3-webcomponent-wrapper";
-import Counter from "./components/Filter.vue";
+import Custom from "./components/Custom.vue";
 
-const webComponent = wrapper(Counter, createApp, h);
-window.customElements.define("jet-filter", webComponent);
+const webComponent = wrapper(Custom, createApp, h);
+window.customElements.define("jet-custom", webComponent);
